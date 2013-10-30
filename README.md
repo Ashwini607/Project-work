@@ -1,4 +1,4 @@
-In case you want to ask anythings related to my work, contact me by mail ashwinikmr44@gmail.com
+In case you want to ask anything related to my work, contact me by mail ashwinikmr44@gmail.com
 
 ### Written in blue are links
 

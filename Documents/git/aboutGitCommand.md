@@ -18,4 +18,4 @@
 ### To add the numbering
 
 For example, you have many SPARQL quiries under simple query, then leave one line space and put like: 1. 
-for first query before commit. It will allow numbering in ascending order to all other queries.  
+for first query. It will allow numbering in ascending order to all other queries.  

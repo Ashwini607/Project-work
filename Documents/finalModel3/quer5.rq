@@ -1,0 +1,22 @@
+# Retrieve the age and name of Shakespeare only
+
+Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix cc: <http://www.woman/>
+Prefix tt: <http://www.man/>
+Prefix cd: <http://www.introductionpage/>
+Prefix dd: <http://www.kyahai/>
+Prefix pp: <http://www.city/>
+Prefix qq: <http://www.country/>
+Prefix aa: <http://www.person/> 
+Prefix ee: <http://www.areCountry/> 
+Prefix tt: <http://www.man/> 
+Prefix ff: <http://www.developedCountry/> 
+Prefix gg: <http://www.person/> 
+
+
+SELECT ?name ?age
+WHERE{ 
+  ?x aa:age ?age.
+  ?x aa:name ?name.
+  ?x cd:livedin  dd:Startford.
+}

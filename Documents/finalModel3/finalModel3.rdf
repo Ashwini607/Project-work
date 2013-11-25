@@ -1,0 +1,52 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dd="http://www.kyahai/"
+    xmlns:ee="http://www.areCountry/"
+    xmlns:ff="http://www.developedCountry/"
+    xmlns:gg="http://www.person/"
+    xmlns:qq="http://www.country/"
+    xmlns:bb="http://www.veryCleanCountry/"
+    xmlns:cd="http://www.introductionpage/"
+    xmlns:pp="http://www.city/"
+    xmlns:tt="http://www.man/"
+    xmlns:cc="http://www.woman/" > 
+  <rdf:Description rdf:about="http://www.country/Wales">
+    <rdf:type rdf:resource="http://www.developedCountry/"/>
+    <qq:partof>UK</qq:partof>
+    <pp:name>Wales</pp:name>
+    <rdf:type rdf:resource="http://www.areCountry/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.country/Scotland">
+    <qq:partof>UK</qq:partof>
+    <pp:name>Scotland</pp:name>
+    <rdf:type rdf:resource="http://www.areCountry/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city/England">
+    <qq:partof>UK</qq:partof>
+    <pp:name>England</pp:name>
+    <rdf:type rdf:resource="http://www.areCountry/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.kyahai/Startford">
+    <dd:isin rdf:resource="http://www.city/England"/>
+    <dd:name>Startford</dd:name>
+    <rdf:type rdf:resource="http://www.city/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.man/Shakespeare">
+    <cd:livedin rdf:resource="http://www.kyahai/Startford"/>
+    <gg:age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</gg:age>
+    <cd:wrote>Kinglear, The Tempest, Hemryv</cd:wrote>
+    <rdf:type rdf:resource="http://www.person/"/>
+    <gg:name>Shakespeare</gg:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.woman/AnneHathaway">
+    <cd:friend rdf:resource="http://www.woman/Happy"/>
+    <cd:married rdf:resource="http://www.man/Shakespeare"/>
+    <gg:age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</gg:age>
+    <rdf:type rdf:resource="http://www.person/"/>
+    <gg:name>AnneHathway</gg:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.woman/Happy">
+    <rdf:type rdf:resource="http://www.person/"/>
+    <gg:name>Happy</gg:name>
+  </rdf:Description>
+</rdf:RDF>

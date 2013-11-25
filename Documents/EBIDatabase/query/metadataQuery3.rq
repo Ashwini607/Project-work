@@ -1,7 +1,0 @@
-# this query will work on sparql-endpoint if their triple store contains rdf-schema.
-
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?subject ?property
-WHERE
-{ ?subject rdfs:subClassOf ?property }

@@ -1,4 +1,4 @@
-### To add the file in Github
+### To add the file in Github repository
 
 -git add filename #go to the location of file or put path
 
@@ -6,14 +6,24 @@
 
 -git push origin master
 
+###  If you want to make new Gthub repository
+- make it online
+- go to the computar location where you want to keep this repository
+- git clone "write the remote location link by going inside the new repositry and copy the text from the box HTTP clone URI" 
 
 ### In case You want to see the status of files
 
 -git status
 
-### In case you have modified the files online then before adding the new file in Github repositry
+### In case you have modified the files online then before adding the new file in Github repository
 
 -git pull
+
+### In case you have modified the Github repository related files in computer and want to update in remote repository
+
+-git commit -a -m "A file was deleted"
+-git push
+
 
 ### To add the numbering
 

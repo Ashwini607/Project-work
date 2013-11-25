@@ -21,9 +21,11 @@
 
 ### In case you have modified the Github repository related files in computer and want to update in remote repository
 
+If you have deleted certain stuff and want to remove it from remote repository
 -git commit -a -m "A file was deleted"
 -git push
 
+If you have made change in some files then add it again before pushing any other files
 
 ### To add the numbering
 
